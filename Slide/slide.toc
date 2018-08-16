@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Literature Review}{4}{0}{2}
+\beamer@sectionintoc {3}{Applications}{7}{0}{3}
+\beamer@sectionintoc {4}{Materials and Methods}{8}{0}{4}

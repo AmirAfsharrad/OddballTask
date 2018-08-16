@@ -14,6 +14,22 @@ def plotfft(signal, fs):
     plt.plot(xf, 2. / len(signal) * np.abs(yf[0:len(signal) // 2]))
     plt.show()
 
+def mfreqz(b,a=1):
+    w,h = sig.freqz(b,a)
+    h_dB = 20 * np.log10 (abs(h))
+    plt.subplot(211)
+    plt.plot(w/max(w),h_dB)
+    plt.ylim(-150, 5)
+    plt.ylabel('Magnitude (db)')
+    plt.xlabel(r'Normalized Frequency (x$\pi$rad/sample)')
+    plt.title(r'Frequency response')
+    plt.subplot(212)
+    h_Phase = np.unwrap(np.arctan2(np.imag(h),np.real(h)))
+    plt.plot(w/max(w),h_Phase)
+    plt.ylabel('Phase (radians)')
+    plt.xlabel(r'Normalized Frequency (x$\pi$rad/sample)')
+    plt.title(r'Phase response')
+    plt.subplots_adjust(hspace=0.5)
 
 #  LOAD DATA ----------------------------------------
 
@@ -49,6 +65,7 @@ plotfft(ECG, fs)
 # FILTER ---------------------------------------------
 
 h = sig.firwin(101, [5, 40], width=None, window='hamming', pass_zero=False, scale=True, fs=fs)
+mfreqz(h)   # bode plot
 
 ECG_filtered = sig.fftconvolve(h, ECG)
 
@@ -56,6 +73,13 @@ ECG_filtered = sig.fftconvolve(h, ECG)
 plotfft(ECG_filtered, fs)
 
 plt.figure()
-plt.plot(ECG_filtered)
+plt.subplot(211)
+plt.plot(ECG)
 plt.xlim([0, 400])
+plt.title('Original Signal')
+plt.subplot(212)
+plt.plot(ECG_filtered)
+plt.title('Filtered Signal')
+plt.xlim([0, 400])
+plt.subplots_adjust(hspace=0.5)
 plt.show()

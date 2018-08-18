@@ -10,9 +10,8 @@ def plotfft(signal, fs):
     T = 1 / fs  # Sampling Time
     yf = fft(signal)  # Fourier Transform
     xf = np.linspace(0.0, 1.0 / (2 * T), len(signal) // 2)  # Frequency Axis
-    plt.figure()
     plt.plot(xf, 2. / len(signal) * np.abs(yf[0:len(signal) // 2]))
-    plt.show()
+
 
 def plotfft2(signal1, signal2, fs1, fs2, label1='', label2=''):
 
@@ -83,8 +82,13 @@ mfreqz(h,1,fs)   # bode plot
 
 ECG_filtered = sig.fftconvolve(h, ECG)
 
+plt.figure()
+plotfft(ECG, fs)
+plotfft(ECG_filtered, fs)
+plt.legend(['Original','Filtered'])
+plt.show()
 
-plotfft2(ECG, ECG_filtered, fs, fs, 'Original ECG', 'Filtered ECG')
+
 
 plt.figure()
 plt.subplot(211)

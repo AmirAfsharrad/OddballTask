@@ -14,9 +14,14 @@
 %----------------------------------------------------------------------------------------
 %   PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
-
 \documentclass{beamer}
 
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+
+
+%\usepackage{enumitem}
 \mode<presentation> {
 
 % The Beamer class comes with a number of default slide themes
@@ -114,7 +119,7 @@ Ambient Intelligence Research Lab (AIR Lab)\\ \textbf{Sharif University of Techn
 
 \begin{frame}
 \frametitle{Objectives}
-\textbf{The Main Objective: }
+\textbf{The Main Objective:}
 a study of human olfaction and olfactory dysfunction detection (judical use)
 \\
 \vspace{0.5cm}
@@ -137,27 +142,88 @@ Above methods are used to classify normal and dysfunctional olfaction
 \frametitle{Literature Review}
 
 \begin{enumerate}
-	\item Poellinger et al. (2001), \textrm{Activation and Habituation in Olfaction}, NeuroImage.\\
+	\item \textrm{\textbf{Activation and Habituation in Olfaction}}
+	\\
+	Poellinger et al. (2001), NeuroImage.\\
+	\begin{itemize}
+		\item
+		a study of olfactory stimulus duration effect on human BOLD response
+	\end{itemize}
+
+	\item  \textrm{\textbf{Olfactory fMRI: Implications of Stimulation Length and Repetition Time}}\\
+	Georgiopoulos et al. (2018), Chemical Senses.\\
+	
+	\begin{itemize}
+		\item
+		Two stimulation lengths and two repititon times.
+		\item
+		plotting the event related time course of brain activation in the four olfactory regions of interest. 
+	\end{itemize}
+	\seti
 \end{enumerate}
+	
+
+	
+
 
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Literature Review}
-\begin{itemize}
-	\item \textrm{\begin{small}Olfactory fMRI: Implications of Stimulation Length and Repetition Time \end{small}}\\
-	 \begin{small}Georgiopoulos et al. (2018), \textbf{Chemical Senses}.\end{small}\\
+\begin{enumerate}
+	\conti
+	\item \textrm{\textbf{Neural Correlates of Olfactory Change Detection}}
+	\\
+	Merav Sabri et al. (2004), NeuroImage.
 	\begin{itemize}
-	\item
-	22 healthy participants.
-    \item
-    Two stimulation lengths and two repititon times.
-	\item
-    plotting the event related time course of brain activation in the four olfactory regions of interest. 
+		\item
+		a study of both passive and active detection of olfactory change
+		\item
+		fMRI and the common oddball paradigm
 	\end{itemize}
-\end{itemize}
+	\item \textrm{\textbf{Detection of Olfactory Dysfunction Using Olfactory Event
+			Related Potentials in Young Patients with Multiple
+			Sclerosis}}
+	\\
+	Fabrizia Caminiti et al. (2014), PLOS ONE.
+	\begin{itemize}
+		\item
+		detection of olfactory dysfunction 
+		\item
+		Olfactory Event Related Potentials (OERP signals) used (no fMRI)
+	\end{itemize}
+	\seti
+\end{enumerate}
 \end{frame}
+
+\begin{frame}
+\frametitle{Literature Review}
+\begin{enumerate}
+	\conti
+	\item \textrm{\textbf{A Computer-Controlled Olfactometer for fMRI and Electrophysiological Studies of Olfaction}}
+	\\
+	Tyler S.Lorig et al. (1999), Behavior Research Methods, Instruments, \& Computers.
+	\begin{itemize}
+		\item
+		design for an inexpensive and reliable olfactometer
+		\item
+		computer-controlled odor administration
+		\item
+		no ferrous material near the subject (for fMRI use)
+	\end{itemize}
+	\item \textrm{\textbf{Methods for Building an Inexpensive Computer-Controlled Olfactometer for Temporary-Precise Experiments}}
+	\\
+	Johan N. Lundstr$\ddot{\textrm{o}}$m et al. (2010), International Journal of Psychophysiology.
+	\begin{itemize}
+		\item
+		a complete guide for building an olfactometer suitable for behavioral experiments
+	\end{itemize}
+	
+\end{enumerate}
+\end{frame}
+
+
 
 \begin{frame}
 \begin{figure}

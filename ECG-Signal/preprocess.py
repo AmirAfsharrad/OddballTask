@@ -78,16 +78,17 @@ plotfft(ECG, fs)
 # FILTER ---------------------------------------------
 
 h = sig.firwin(101, [5, 40], width=None, window='hamming', pass_zero=False, scale=True, fs=fs)
+
 mfreqz(h,1,fs)   # bode plot
 
 ECG_filtered = sig.fftconvolve(h, ECG)
 
+# before and after filtering
 plt.figure()
 plotfft(ECG, fs)
 plotfft(ECG_filtered, fs)
 plt.legend(['Original','Filtered'])
 plt.show()
-
 
 
 plt.figure()

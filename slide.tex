@@ -84,11 +84,13 @@
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
+%\usepackage{enumitem}
+
 %----------------------------------------------------------------------------------------
 %   TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Hmuan Olfaction]{fMRI of Human Olfaction} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Hmuan Olfaction]{Study of Human Olfaction Using fMRI} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{A. Afsharrad, H. Hojjati, M. Kiani, B. Moniri} % Your name
 \institute[Sharif University of Technology] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -97,6 +99,7 @@ Ambient Intelligence Research Lab (AIR Lab)\\ \textbf{Sharif University of Techn
 \medskip
  % Your email address
 }
+
 \date{\today} % Date, can be changed to a custom date
 
 \begin{document}
@@ -139,7 +142,7 @@ Above methods are used to classify normal and dysfunctional olfaction
 \section{Literature Review} 
 
 \begin{frame}
-\frametitle{Literature Review}
+\frametitle{Literature Review - Stimulus Duration}
 
 \begin{enumerate}
 	\item \textrm{\textbf{Activation and Habituation in Olfaction}}
@@ -170,7 +173,7 @@ Above methods are used to classify normal and dysfunctional olfaction
 
 
 \begin{frame}
-\frametitle{Literature Review}
+\frametitle{Literature Review - Oddball Paradigm}
 \begin{enumerate}
 	\conti
 	\item \textrm{\textbf{Neural Correlates of Olfactory Change Detection}}
@@ -198,7 +201,7 @@ Above methods are used to classify normal and dysfunctional olfaction
 \end{frame}
 
 \begin{frame}
-\frametitle{Literature Review}
+\frametitle{Literature Review - Olfactometer}
 \begin{enumerate}
 	\conti
 	\item \textrm{\textbf{A Computer-Controlled Olfactometer for fMRI and Electrophysiological Studies of Olfaction}}
@@ -225,23 +228,122 @@ Above methods are used to classify normal and dysfunctional olfaction
 
 
 
-\begin{frame}
-\begin{figure}
-\includegraphics[scale=0.2]{img1.png}
-\end{figure}
-\end{frame}
-
 \section{Applications} 
-
 \begin{frame}
-\frametitle{Literature Review}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
-
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+	\frametitle{Significance and Application of Olfaction Study}
+	\begin{enumerate}
+		\item
+		Diagnosis of Olfactory Dysfunction
+		\begin{itemize}
+			\item
+			Judical use of malingering Detection
+			\item 
+			Early Diagnosis of Various Disorders
+		\end{itemize}
+		\vspace{0.5cm}
+		\item
+		Getting to know how the brain functions to perceive olfactory stimuli (Olfaction is the least understood sense among all senses)
+		\begin{itemize}
+			\item
+			Do common sensory tasks work the same for olfaction?
+			\item 
+			Olfactory oddball paradigm and surprise decoding
+		\end{itemize}
+		
+		
+		
+	\end{enumerate}
 \end{frame}
+
 
 
 \section{Materials and Methods} 
+
+\begin{frame}
+	\frametitle{Methods for Stimulus Presentation}
+	\begin{enumerate}
+		\item
+		Presenting Odor via Vial
+		\begin{itemize}
+			\item
+			\textit{advantages:} cheap and easy to conduct
+			\item
+			\textit{disadvantages:} low time resolution / can lead to subject's bias toward stimuli		
+		\end{itemize}
+		\item
+		Olfactometer
+		\begin{itemize}
+			\item
+			\textit{advantages:} computer-controlled / high time resolution
+			\item
+			\textit{disadvantages:} expensive to buy / demanding technical ability to build
+		\end{itemize}
+
+	\end{enumerate}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Stimulus Presentation - Olfactomerter}
+	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		
+		\column{.45\textwidth} % Left column and width
+			\begin{itemize}
+			\item
+			An inexpensive but efficient olfactometer
+			\item
+			Completely designed and built by our researchers
+			\item
+			Computer-controlled stimulus time and sequence pattern
+			\item
+			presenting up to three different odors
+			\item
+			using oil-free air compressor due to health concerns
+		\end{itemize}
+			
+				
+		\column{.5\textwidth} % Right column and width
+			\includegraphics[scale=0.2]{olfactometer.jpg}	
+		
+	\end{columns}
+	
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Experimental Protocols}
+\begin{enumerate}
+	\item
+	Task 1: The Oddball Paradigm
+	\begin{itemize}
+		\item
+		two odors and one no-odor control (for resting)
+		\item
+		one rare and one frequent stimuli
+		\item
+		rest time: 6s / stimulus time: 4s
+		\item
+		number of stimuli per trial: 40 / number of trials: 10
+		\item
+		synchronized respiration (using an auditory or visual stimulus)
+	\end{itemize}
+	\item
+	Task 2: Variable-Length Stimuli
+	\begin{itemize}
+		\item
+		one odor, different durations, and one no-odor control (for resting)
+		\item
+		rest time: 10s / stimulus time: from 5s to 1min
+		\item
+		number of stimuli per trial: 10 / number of trials: 10
+		\item
+		synchronized respiration (using an auditory or visual stimulus)
+	\end{itemize}
+	
+\end{enumerate}
+\end{frame}
+
+
 
 \begin{frame}
 \frametitle{fMRI Data Analysis with SPM}
@@ -252,28 +354,18 @@ Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. A
 \end{frame}
 
 \begin{frame}
-\frametitle{Multiple Columns}
-\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+\frametitle{Project Roadmap}
+	\begin{enumerate}
+		\item
+		Developing a setup for presenting olfactory stimulus \textit{(ALREADY DONE)}
+		\item
+		finding subjects with olfaction dysfunction
+		\item
+		fMRI data acquisition
+		\item
+		data analysis and conclusion (\textit{Estimated Time: 4 months})
+	\end{enumerate}
 
-\column{.45\textwidth} % Left column and width
-\textbf{Heading}
-\begin{enumerate}
-\item Statement
-\item Explanation
-\item Example
-\end{enumerate}
-
-\column{.5\textwidth} % Right column and width
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-\begin{theorem}[Mass--energy equivalence]
-	$E = mc^2$
-\end{theorem}
-\end{columns}
-\end{frame}
-
-
-\begin{frame}
-\Huge{\centerline{The End}}
 \end{frame}
 
 %----------------------------------------------------------------------------------------

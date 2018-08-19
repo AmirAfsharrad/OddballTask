@@ -1,0 +1,25 @@
+\usepackage[all]{xy}
+\usepackage{amsmath,amsthm,amssymb,graphicx,tikz,fancyhdr,hyperref} 
+\usepackage{graphicx,hyperref,fancyhdr,amsmath,amssymb,color,xspace}
+\usepackage{fancyhdr}
+\usepackage[extrafootnotefeatures]{xepersian}
+\settextfont[Scale=1]{Yas}
+\setdigitfont[Scale=1.1]{Yas}
+\setlatintextfont{Times New Roman}
+\linespread{1.8}
+\newtheorem{dfn}{تعریف}
+\newtheorem{thm}{قضیه}
+\newtheorem{pro}{گزاره}
+\newtheorem{rem}{تذکر}
+\newtheorem{lem}{لم}
+\newtheorem{cor}{فرع}
+\newtheorem{ex}{مثال}
+\newtheorem{qu}{سوال}
+\newtheorem{con}{ساخت}
+\renewenvironment{proof}{\noindent{\bf برهان. }  \rm }{\hfill{$\Box$}\\}
+\renewcommand{\bibname}{مراجع}
+\fancyhead[RE]{\thepage}
+\fancyhead[LO]{\thepage}
+\fancyfoot{\empty} 
+\pagestyle{fancy}
+\newcommand{\Lfootnote}[1]{\hspace{-1mm}\LTRfootnote{\rm #1}~}

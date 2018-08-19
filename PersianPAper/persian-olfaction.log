@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2018.7.15)  19 AUG 2018 17:25
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2018.8.1)  19 AUG 2018 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,47 +1325,48 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 )
-\g__fontspec_family_Yas_int=\count284
+\g__fontspec_family_XBYas_int=\count284
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Yas(0)' created for font 'Yas' with options
+. Font family 'XBYas(0)' created for font 'XB Yas' with options
 . [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=1].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"Yas/OT:script=arab;language=FAR;mapping=parsidigits;"
+. - 'normal' (m/n) with NFSS spec.: <->s*[1]"XB
+. Yas/OT:script=arab;language=FAR;mapping=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"Yas/B/OT:script=arab;language=FAR;mapping=parsidigits;"
+. <->s*[1]"XB Yas/B/OT:script=arab;language=FAR;mapping=parsidigits;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
-. spec.: <->s*[1]"Yas/I/OT:script=arab;language=FAR;mapping=parsidigits;"
+. spec.: <->s*[1]"XB Yas/I/OT:script=arab;language=FAR;mapping=parsidigits;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.:
-. <->s*[1]"Yas/BI/OT:script=arab;language=FAR;mapping=parsidigits;"
+. with NFSS spec.: <->s*[1]"XB
+. Yas/BI/OT:script=arab;language=FAR;mapping=parsidigits;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 6.
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Yas(1)' created for font 'Yas' with options
+. Font family 'XBYas(1)' created for font 'XB Yas' with options
 . [Mapping=parsidigits,Scale=1.1].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1.1]"Yas/OT:script=latn;language=DFLT;mapping=parsidigits;"
+. - 'normal' (m/n) with NFSS spec.: <->s*[1.1]"XB
+. Yas/OT:script=latn;language=DFLT;mapping=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[1.1]"Yas/B/OT:script=latn;language=DFLT;mapping=parsidigits;"
+. <->s*[1.1]"XB Yas/B/OT:script=latn;language=DFLT;mapping=parsidigits;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
-. spec.: <->s*[1.1]"Yas/I/OT:script=latn;language=DFLT;mapping=parsidigits;"
+. spec.: <->s*[1.1]"XB
+. Yas/I/OT:script=latn;language=DFLT;mapping=parsidigits;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.:
-. <->s*[1.1]"Yas/BI/OT:script=latn;language=DFLT;mapping=parsidigits;"
+. with NFSS spec.: <->s*[1.1]"XB
+. Yas/BI/OT:script=latn;language=DFLT;mapping=parsidigits;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Yas' on input line 7.
+as'XB Yas' on input line 7.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
@@ -1377,6 +1378,21 @@ as'Yas' on input line 7.
 .................................................
 \g__fontspec_family_TimesNewRoman_int=\count285
 .................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Times New Roman/BI (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Times New Roman/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Times New Roman/I (it probably doesn't exist).
+.................................................
+.................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
@@ -1384,13 +1400,7 @@ as'Yas' on input line 7.
 . 
 . This font family consists of the following NFSS series/shapes:
 . - 'normal' (m/n) with NFSS spec.: <->"Times New Roman/OT:mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->"Times New Roman/B/OT:mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
-. spec.: <->"Times New Roman/I/OT:mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.: <->"Times New Roman/BI/OT:mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \latinfont on input line 8.
 \c@dfn=\count286
@@ -1470,13 +1480,13 @@ LaTeX Info: Redefining \nameref on input line 7.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 10.
 
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 16.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 16.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 18.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 30.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -1487,7 +1497,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.47807pt.
+ Make it at least 12.98979pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1501,39 +1511,39 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/n' will be
 (Font)              scaled to size 11.00006pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/n' will be
 (Font)              scaled to size 7.70004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/n' will be
 (Font)              scaled to size 5.50003pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/bx/n' will be
 (Font)              scaled to size 11.00006pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/bx/n' will be
 (Font)              scaled to size 7.70004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/bx/n' will be
 (Font)              scaled to size 5.50003pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/it' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/it' will be
 (Font)              scaled to size 11.00006pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/it' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/it' will be
 (Font)              scaled to size 7.70004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/it' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/it' will be
 (Font)              scaled to size 5.50003pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/n' will be
 (Font)              scaled to size 8.80005pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/n' will be
 (Font)              scaled to size 6.60004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/bx/n' will be
 (Font)              scaled to size 8.80005pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/bx/n' will be
 (Font)              scaled to size 6.60004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/it' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/it' will be
 (Font)              scaled to size 8.80005pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(1)/m/it' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(1)/m/it' will be
 (Font)              scaled to size 6.60004pt on input line 60.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 60.
  [3]
 File: sche.png Graphic file (type QTm)
@@ -1551,11 +1561,17 @@ File: full.png Graphic file (type QTm)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5] [6]
-LaTeX Font Info:    Font shape `EU1/Yas(0)/m/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 122.
-LaTeX Font Info:    Font shape `EU1/Yas(0)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/XBYas(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 122.
- [7
+
+
+LaTeX Font Warning: Font shape `EU1/TimesNewRoman(0)/bx/n' undefined
+(Font)              using `EU1/TimesNewRoman(0)/m/n' instead on input line 127.
+
+
+[7
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
@@ -1565,17 +1581,20 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 35448 strings out of 493591
- 662125 string characters out of 6143546
- 730648 words of memory out of 5000000
- 38297 multiletter control sequences out of 15000+600000
- 10648 words of font info for 94 fonts, out of 8000000 for 9000
+ 35436 strings out of 493591
+ 661934 string characters out of 6143547
+ 729412 words of memory out of 5000000
+ 38288 multiletter control sequences out of 15000+600000
+ 10616 words of font info for 90 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 57i,11n,63p,10437b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,63p,10440b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on persian-olfaction.pdf (7 pages).

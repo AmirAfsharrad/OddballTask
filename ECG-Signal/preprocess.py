@@ -13,20 +13,6 @@ def plotfft(signal, fs):
     plt.plot(xf, 2. / len(signal) * np.abs(yf[0:len(signal) // 2]))
 
 
-def plotfft2(signal1, signal2, fs1, fs2, label1='', label2=''):
-
-    T1 = 1 / fs1  # Sampling Time
-    yf1 = fft(signal1)  # Fourier Transform
-    xf1 = np.linspace(0.0, 1.0 / (2 * T1), len(signal1) // 2)  # Frequency Axis
-    T2 = 1 / fs2 # Sampling Time
-    yf2 = fft(signal2)  # Fourier Transform
-    xf2 = np.linspace(0.0, 1.0 / (2 * T2), len(signal2) // 2)  # Frequency Axis
-    plt.figure()
-    plt.plot(xf1, 2. / len(signal1) * np.abs(yf1[0:len(signal1) // 2]))
-    plt.plot(xf2, 2. / len(signal2) * np.abs(yf2[0:len(signal2) // 2]))
-    plt.legend([label1, label2])
-    plt.show()
-
 def mfreqz(b,a=1,fs=1):
     w,h = sig.freqz(b,a)
     h_dB = 20 * np.log10 (abs(h))

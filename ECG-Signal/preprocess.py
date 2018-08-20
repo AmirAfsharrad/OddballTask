@@ -84,6 +84,8 @@ plt.xlim([0, 400])
 plt.title('Original Signal')
 plt.subplot(212)
 plt.plot(ECG_filtered)
+
+
 plt.title('Filtered Signal')
 plt.xlim([0, 400])
 plt.subplots_adjust(hspace=0.5)
